@@ -1,0 +1,275 @@
+/*-------------Universel Selector---------------*/
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/*-------------Banner section ---------------*/
+.banner {
+    background: url(../images/banner/banner1.png);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textarea {
+    padding-left: 845px;
+    padding-top: 216px;
+    padding-right: 230px;
+    text-align: right;
+}
+
+.textarea h1 {
+    text-align: right;
+    font-weight: 700;
+    font-size: 65px;
+    margin-top: 20px;
+}
+
+.textarea p {
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 32px;
+
+}
+
+.contact-btn {
+
+    background-color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+/*-----------------main section ------------------- */
+main {}
+
+.img-text {
+    display: flex;
+    align-items: center;
+}
+
+.img-person {
+    width: 569px;
+    height: 723px;
+    margin-top: 131px;
+    margin-left: 240px;
+
+}
+
+.text-content {
+    margin-left: 87px;
+    margin-top: 350px;
+    margin-right: 322px;
+}
+
+.text-content h1 {
+    font-size: 40px;
+    font-weight: 700px;
+    margin-bottom: 24px;
+}
+
+.text-content p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 16px;
+}
+
+.fa-solid {
+    color: rgb(7, 218, 42);
+
+}
+
+/*--------------my-Plan-------------------*/
+.my-plan {
+    width: 1140px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-bottom: 130px;
+
+}
+
+.title-box {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.card {
+    margin-top: 57px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.my-plancard {
+    text-align: center;
+}
+
+.plan-img {
+    width: 60px;
+    margin-bottom: 16px;
+
+}
+
+.my-plancard h3 {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.my-plancard p {
+    margin-bottom: 16px;
+}
+
+/*---------- CTA------------*/
+.cta {
+    margin-top: 190px;
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    height: 300px;
+    border-radius: 10px;
+
+
+}
+
+.cta-area {
+    padding-top: 60px;
+    padding-left: 64px;
+    padding-right: 617px;
+
+
+}
+
+.cta-area h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFFFFF;
+
+}
+
+.cta-btn {
+    margin-top: 24px;
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0px;
+    color: #F15B22;
+}
+
+
+/*-------------------Portfolio-----------------------*/
+.p-title {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.img-container {
+    display: flex;
+}
+
+.img-box {
+    width: 500px;
+    height: 200px;
+    background-color: #F15B22;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+/*--------------- Footer-------------------- */
+
+.footer {
+    display: flex;
+    width: 1600px;
+    height: 577px;
+    background-color: #151414;
+
+}
+
+.future {
+    width: 485px;
+    height: 317px;
+    margin-top: 130px;
+    margin-left: 230px;
+}
+
+.future h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.future p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F8F8F8;
+    margin-bottom: 24px;
+}
+
+.f-email {
+    margin-bottom: 16px;
+}
+
+.f-phone {
+    margin-bottom: 16px;
+}
+
+.subcraption {
+    width: 325px;
+    height: 204px;
+    margin-top: 130px;
+    margin-right: 229px;
+    margin-left: 330px;
+}
+
+.f-image {
+    display: flex;
+    height: 46px;
+    width: 46px;
+}
+
+.social-img {
+    padding-right: 17px;
+}
+
+.subcraption h1 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.f-input {
+    display: block;
+    width: 324px;
+    height: 40px;
+    font-size: 20px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 16px;
+
+}
+
+.f-btn {
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    padding: 20px 36px;
+    border: 0px;
+    border-radius: 5px;
+}
